@@ -1,39 +1,223 @@
-<!-- This is an html page for the 12:30 section of JNL221.
-This page will be used at times for explaining homework instructions
-or displaying student work. -->
+<!-- Complete this worksheet in html and css. Instructions are as comments; you may use reference_sheet.html and the internet to jog your memory on html tags and css. -->
 
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<title>Foundations Of Data And Digital Journalism</title>
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-	<link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
-	<link type="text/css" rel="stylesheet" href="/index.css" />
-</head>
+    <head>
+        <meta charset="utf-8">
+        <title>Basic HTML</title>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        
+        <style>
+        
+        p {
+            color: #A9A9A9;
+            font-size: 16px;
+            font-family: 'Open Sans', serif;
+            width: 50%;
+        }
+        #quote {
+            color: magenta;
+            font-style: italic;
+            border: solid lightskyblue 2px;
+        }
 
-<!-- DO NOT EDIT ANYTHING IN THE HEAD TAG ^ -->
+        #bargraph {
+            border: 1px solid gray;
+            padding-left: 10px;
+            padding-bottom: 10px;
+            width: 25%;
+        }
+        .bar_label {
+            color: red;
+        }
+        #longest {
+            width: 300px;
+            height: 10px;
+            background: gray;
+            border: 1px solid red;
+        }
+        #longer {
+            height: 10px;
+            background: gray;
+            border: 1px solid red;
+        }
+        #long {
+            height: 10px;
+            background: gray;
+            border: 1px solid red;
+        }
 
-<body>
-	
-	<!-- Intro row -->
-	<div id="intro" class="col-sm-12">
-		<h1> <!-- /// EDITABLE ONE /// --> JNL221, Spring 2022</h1>
-		<h4> <!-- /// EDITABLE TWO /// --> Yoki Tang</h4>
-	</div>
+        </style>
+    </head>
+    
+    <body>
 
-	<div class="container content">
-		<p> <!-- /// EDITABLE THREE /// --> I am a BDJ student who loves Kpop.</p>
-	</div>
+    <h1>A little bit about me!</h1>
+    
+    <h2>My intro</h2>
+
+<p> 
+
+    Hi! This is Yoki, I come from <i>China</i> but both <i>Korean</i>. I borned in China, My father is a Chinese, My Mom <strong>borned and came from Korean but she is a Chinese now.</strong> That means I have double idetity in both countries and also communities. I like to liste and dance K-pop in the sapre time for fun. Now, I am study both major in selective study in education and Broadcast & Digital Journalism in Syracuse University. I love the process of digging into truth in the jounalism industry.
+
+ </p>
 
 
-  	<!-- About Row -->
-	<div class="row">
-		<div id="end" class="col-sm-12">
-			<h4> <!-- /// EDITABLE FOUR /// --> made by github pages with montserrat and open sans, at newhouse school of communications'.
-		</div>
-	</div>
+    <!-- Include: a brief intro to yourself -- where you're from, what you like to do for fun, what you're studying, and who your community or family is. -->
+    <!-- Tags to use: <p>, <strong>, <i> -->
+    
 
-</body>
+    <h2>My handles</h2>
+
+
+ <p>
+     
+     If you want to know more of my life, you can click the folloing link which directly to my social accounts.
+
+Instagram: <a href="https://www.instagram.com/">yoki_xiuxiuxiu</a>  
+
+Twitter:  <a href="https://twitter.com/tang_yokinhss">tang_yokinhss</a>  
+
+
+ </p>
+
+
+    <!-- Include: at least two handles for your social media accounts -->
+    <!-- Tags to use: <p>, <a> -->
+
+    
+    <h2> ~ Challenge: Why is my text maroon? ~</h2>
+    <!-- Challenge! The text in your p tags is currently maroon. Figure out why and make it dark gray, using a hex code. (Hint: use google to find a hex code for a dark gray) -->
+    <p>My text is maroon.</p>
+
+
+    <h2>My favorite meme</h2>
+
+
+    <!-- Image tag -->
+
+<p>The Large Wink Meme is here!</p>
+
+<img src="https://raw.githubusercontent.com/jnl221/basic_html/main/large_wink.png">
+
+    <!-- Include: "large_wink.png" as an image -->
+    <!-- Tags to use: <img> -->
+    <!-- Hint! Use 'reference_sheet.html', which you downloaded with this file, to remember how to include an image. -->
+
+    
+    <h2>Why I'm a great student</h2>
+
+<ul>
+    
+
+<li>Very <strong>Hardworking</strong></li>
+<li>Active in <strong> Class Participation </strong> </li>
+<li>Engage notes taking for each sentence from <strong>Professor.Husain</strong></li>
+<li>Reflection in Course Conrent</li>
+<li>Dare to challenge additional uses of data tools</li>
+
+</ul>
+
+    <!-- Include: an unordered list -->
+    <!-- Tags to use: <ul>, <li>, <strong> -->
+
+    
+    <h2>Top 3 most famous people from my hometown</h2>
+
+<ol>
+    
+<li> President.Xi Jinping  </li>
+<li> Film Actor. Chenglong </li>
+<li> Singner. Jay Zhou  </li>
+
+</ol>
+
+    <!-- Include: an ordered list -->
+    <!-- Tags to use: <ol>, <li>, <a> -->
+
+
+    <h2> ~ Challenge: Read my poetry ~</h2>
+
+
+<p>
+As the seasons flow,<br>
+I am always on the road in pursuit of truth.<br>
+Winter Passes and Spring Comes,<br>
+Summer departs and autumn returns.<br>
+I listened to one story after another,
+Healing one heart after another.
+</p>
+
+
+
+    <!-- Challenge! Use the internet to figure out what a <br> tag is. Write a short poem about your college experience so far. -->
+    <!-- Tags to use: <p>, at least two <br> tags -->
+        
+
+    
+    <h2>This is one of my favorite quotes</h2>
+
+<h3>The 5 Love Languages Singles Edition(Gary Chapman)</h3>
+
+<p>
+  
+<i>
+
+"In fact, learning to love others is the fastest way to receive love."
+
+</i>
+
+
+</p>
+
+    <!-- Include: a quote from a book -- quote should be in italics and gray, title of source should be in an <h3> tag -->
+    <!-- Tags to use: <h3>, <p> with an id named 'quote' that is styled in the <style> section -->
+
+
+    <h2>These are more of my favorite books</h2>
+
+
+<ul>
+    
+<li> On Love by Stendhal </li>
+<li>The Sonnets of Shakespeare </li>
+<li> Le Petit Prince </li>
+
+
+</ul>
+
+    <!-- Include: an unordered list of at least three books, list items should have a border -->
+    <!-- Tags to use: <ul>, <li> with classes named 'book' that is styled in the <style> section -->
+
+
+    <h3>~ Challenge: A very simple bar graph ~</h3>
+
+
+    <!-- Challenge! Add CSS styles to '#longer' and '#long' to make the bar graph look like it's ordered from longest to shortest. You may also change the h4 text and the p text to make this simple bar chart reflect real (or fake) data. -->
+
+    <div id="bargraph">
+        <h4>Length of bars</h4>
+
+<div style="width: 75%;">
+
+      <p class="bar_label">500 </p>
+        <div id="longest"></div>
+
+</div>
+
+
+<div style="width: 50%">
+
+        <p class="bar_label">200 </p>
+        <div id="longer"></div>
+
+</div>
+
+<div style="width: 25%">
+        <p class="bar_label">100 </p>
+        <div id="long"></div>
+</div>
+
+     
+    </body>
 </html>
