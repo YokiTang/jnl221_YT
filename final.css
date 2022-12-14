@@ -8,8 +8,12 @@
 	color: white;
 	text-align: center;
 	font-family: 'Georgia', serif;
-	margin-top: -70px;
+	margin-top: 0px;
 	
+}
+
+h2{ margin-top: 0px;
+
 }
   
 #dek {
@@ -54,6 +58,10 @@ table, th, td {
 
 h3 {
 	font-size: 30px;
+	font-family: 'Playfair Display', serif;
+}
+#oswald {
+	font-family: 'Oswald', sans-serif;
 }
 
 .footer p {
